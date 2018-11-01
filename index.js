@@ -8,7 +8,7 @@ const log = new Log('debug', fs.createWriteStream('./log/watch.log'));
 arguments = process.argv.splice(2);
 
 var dir = arguments.length > 0 ? arguments[0] : "." + path.sep
-watch.watchTree('dir',{
+watch.watchTree(dir,{
   //ignoreDirectoryPattern: "./log/"
 }, function (f, curr, prev) {
   if (typeof f == "object" && prev === null && curr === null) {
