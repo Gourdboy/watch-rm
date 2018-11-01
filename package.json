@@ -1,0 +1,28 @@
+{
+  "name": "watch-rm",
+  "version": "1.0.0",
+  "description": "Listen for untrusted files and delete it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gourdboy/watch-rm.git"
+  },
+  "keywords": [
+    "watch",
+    "rm"
+  ],
+  "author": "gourdboy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gourdboy/watch-rm/issues"
+  },
+  "homepage": "https://github.com/Gourdboy/watch-rm#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "log": "^1.4.0",
+    "watch": "^1.0.2"
+  }
+}
