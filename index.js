@@ -5,7 +5,7 @@ const fse = require("fs-extra");
 const path = require("path");
 
 const log = new Log('debug', fs.createWriteStream('./log/watch.log'));
-arguments = process.argv.splice(2);
+var arguments = process.argv.splice(2);
 
 var dir = arguments.length > 0 ? arguments[0] : "." + path.sep
 watch.watchTree(dir,{
